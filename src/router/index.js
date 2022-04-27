@@ -6,6 +6,7 @@ import CourseView from '../views/CourseView.vue'
 import RateView from '../views/RateView.vue'
 import ArticleView from '../views/ArticleView.vue'
 import CourseFinance from '../components/CourseFinance.vue'
+import RatePurchase from '../components/RatePurchase.vue'
 const routes = [
   {
     path: '/',
@@ -42,7 +43,13 @@ const routes = [
     path:'/finance',
     name:'finance',
     component:CourseFinance
+  },
+  {
+    path:'/purchaseorder',
+    name:'ratepurchase',
+    component:RatePurchase
   }
+  
 ]
 
 const router = createRouter({

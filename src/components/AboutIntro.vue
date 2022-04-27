@@ -35,6 +35,12 @@
 .aboutintro-img img{
     width: 100%;
 }
+.aboutparagraph{
+    padding-bottom: 9%;
+}
+.aboutparagraph h1{
+    text-align: center;
+}
 
 .stairs{
     position: absolute;

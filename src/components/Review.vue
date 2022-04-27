@@ -1,4 +1,5 @@
 <template>
+    <div class="stair"></div>
     <div class="reviews">
         <div class="container reviews-inner">
         <div class="title">Отзывы</div>
@@ -104,15 +105,22 @@
 * {
   box-sizing: border-box;
 }
+.stair {
+  background: url(@/assets/img/stair-review.png) no-repeat;
+  height: 50vh;
+  margin-top: -329px;
+  margin-left: 100px;
+}
 .reviews{
   background: 
   url(@/assets/img/rate-cloud.png) no-repeat right top,
-  url(@/assets/img/half-cloud.png) no-repeat left,
-  url(@/assets/img/cloud-rate2.png) no-repeat right 550px,
-  url(@/assets/img/stair-review.png) no-repeat left 100%;
+  url(@/assets/img/half-cloud.png) no-repeat left 200px,
+  url(@/assets/img/cloud-rate2.png) no-repeat right 550px;
+  /* url(@/assets/img/stair-review.png) no-repeat left 100%; */
 }
 .reviews-inner{
-  padding-top: 90px;
+  /* padding-top: 90px; */
+  margin-top: -400px;
 }
 
 .title {

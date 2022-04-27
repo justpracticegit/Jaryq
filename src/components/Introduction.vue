@@ -51,7 +51,7 @@
 }
 .intro-paragraph{
     margin-top: 296px;
-    margin-left: 166px;
+    margin-right: -3%;
 }
 .intro-paragraph-h1{
     font-style: Bold;
